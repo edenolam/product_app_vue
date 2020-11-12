@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Product App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav-bar"></div>
+<div id="app">
+    <div class="product">
+        <div class="product-image">
+            <a v-bind:href="link"> <img v-bind:src="image" alt=""></a>
+        </div>
+
+        <div class="product-info">
+            <span v-show="onSale">ON SALE</span>
+            <h1>{{title}}</h1>
+            <h5>{{description}}</h5>
+            <p v-if="inventory > 10">In Stock</p>
+            <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
+            <p v-else :class="{ barre: !inStock }">Out Of Stock</p>
+            <p>{{sale}}</p>
+
+            <ul>
+                <li v-for="detail in details">{{detail}}</li>
+            </ul>
+
+            <div v-for="variant in variants"
+                 :key="variant.variantId"
+                 class="color-box"
+                 :style="{backgroundColor: variant.variantColor}"
+                 @mouseover="updateProduct(index)"
+            >
+            </div>
+
+            <ul>acheteur
+                <li v-for="person in persons" :key="person.id">{{person.id}} : {{person.nom}}</li>
+            </ul>
+
+            <button v-on:click="addToCart"
+                    :disabled="!inStock"
+                    :class="{ disabledButton: !inStock }"
+            >ajouter
+            </button>
+
+            <button v-on:click="removeFromCart"
+                    :disabled="cart === 0"
+                    :class="{ disabledButton: cart === 0 }"
+            >retirer
+            </button>
+
+            <div class="cart">
+                <p>Cart({{cart}})</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

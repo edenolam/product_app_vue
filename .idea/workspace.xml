@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="068ac332-64fa-4166-98d2-8e034a73bfb1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kBcfyaWyepj1iOYJcXOfcEyAle" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm serve">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm serve" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="068ac332-64fa-4166-98d2-8e034a73bfb1" name="Default Changelist" comment="" />
+      <created>1605177531394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605177531394</updated>
+      <workItem from="1605177532470" duration="10558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1428" y="1183" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605185888681">
+      <screen x="685" y="900" width="1920" height="1080" />
+    </state>
+    <state x="1428" y="1183" width="424" height="491" key="FileChooserDialogImpl/685.900.1920.1080/0.0.1600.900/1600.0.1600.900@685.900.1920.1080" timestamp="1605185888681" />
+    <state width="1874" height="225" key="GridCell.Tab.0.bottom" timestamp="1605194024397">
+      <screen x="685" y="900" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="225" key="GridCell.Tab.0.bottom/685.900.1920.1080/0.0.1600.900/1600.0.1600.900@685.900.1920.1080" timestamp="1605194024397" />
+    <state width="1874" height="225" key="GridCell.Tab.0.center" timestamp="1605194024396">
+      <screen x="685" y="900" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="225" key="GridCell.Tab.0.center/685.900.1920.1080/0.0.1600.900/1600.0.1600.900@685.900.1920.1080" timestamp="1605194024396" />
+    <state width="1874" height="225" key="GridCell.Tab.0.left" timestamp="1605194024396">
+      <screen x="685" y="900" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="225" key="GridCell.Tab.0.left/685.900.1920.1080/0.0.1600.900/1600.0.1600.900@685.900.1920.1080" timestamp="1605194024396" />
+    <state width="1874" height="225" key="GridCell.Tab.0.right" timestamp="1605194024396">
+      <screen x="685" y="900" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="225" key="GridCell.Tab.0.right/685.900.1920.1080/0.0.1600.900/1600.0.1600.900@685.900.1920.1080" timestamp="1605194024396" />
+  </component>
+</project>
